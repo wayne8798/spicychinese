@@ -10,6 +10,8 @@ ACCESS_SECRET = "FxbhHZ5g5ddLdGFGI4TTTlwuScFoOIVUi7FZSQBxqg4DD"
 api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET,
                  ACCESS_KEY, ACCESS_SECRET)
 
-r = api.request('statuses/filter', {'locations':'-74,40,-73,41'})
+# Note: At least one predicate parameter (follow, locations, or track)
+# must be specified.
+r = api.request('statuses/filter', {'locations':'-180,-90,180,90'})
 for item in r.get_iterator():
     print item
