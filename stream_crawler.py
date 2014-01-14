@@ -23,6 +23,14 @@ for item in r.get_iterator():
             and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)):
             print screen_name
             print tweet
+
+            rr = api.request('statuses/user_timeline',
+                             {'screen_name':screen_name, 'count':200})
+            count = 1
+            for i in rr.get_iterator():
+                if 'text' in i.keys():
+                    print str(count) + ': ' + i['text']
+                    count += 1
             
         tweetCount += 1
         if tweetCount % 1000 == 0:
