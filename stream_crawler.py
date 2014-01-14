@@ -14,4 +14,9 @@ api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET,
 # must be specified.
 r = api.request('statuses/filter', {'locations':'-180,-90,180,90'})
 for item in r.get_iterator():
-    print item
+    if 'text' in item.keys():
+        tweet = item['text']
+        # Here we need to check whether a tweet is Chinese or Japanese
+        if (any(u'\u4e00' <= ch <= u'\u9fff' for ch in tweet)
+            and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)):
+            print tweet
