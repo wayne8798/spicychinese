@@ -12,11 +12,18 @@ api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET,
 
 # Note: At least one predicate parameter (follow, locations, or track)
 # must be specified.
-r = api.request('statuses/filter', {'locations':'-180,-90,180,90'})
+r = api.request('statuses/sample')
+tweetCount = 0
 for item in r.get_iterator():
     if 'text' in item.keys():
         tweet = item['text']
+        screen_name = item['user']['screen_name']
         # Here we need to check whether a tweet is Chinese or Japanese
         if (any(u'\u4e00' <= ch <= u'\u9fff' for ch in tweet)
             and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)):
+            print screen_name
             print tweet
+            
+        tweetCount += 1
+        if tweetCount % 1000 == 0:
+            print tweetCount
