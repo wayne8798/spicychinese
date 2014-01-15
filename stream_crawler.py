@@ -14,6 +14,7 @@ def analyze_user(api, screen_name):
     chCount = 1
     enCount = 1
     japFlag = False
+    tweetsBuffer = ''
     for item in r.get_iterator():
         if 'text' in item.keys():
             text = item['text']
@@ -21,7 +22,7 @@ def analyze_user(api, screen_name):
             urls = (e["url"] for e in entities["urls"])
             users = ("@"+e["screen_name"] for e in entities["user_mentions"])
             text = reduce(lambda t,s: t.replace(s, ""), chain(urls, users), text)
-            
+            tweetsBuffer += text + '\n'
             for ch in text:
                 if u'\u3040' <= ch <= u'\u30ff':
                     japFlag = True
@@ -34,8 +35,11 @@ def analyze_user(api, screen_name):
         if japFlag:
             break
 
-    if chCount > 50 and enCount > 200 and not japFlag:
-        print screen_name
+    if chCount > 50 and enCount > 500 and not japFlag:
+        print 'store tweets from ' + screen_name
+        f = open('data/' + screen_name, 'w')
+        f.write(tweetsBuffer.encode('utf8'))
+        f.close()
 
 def collect_stream(api):
     r = api.request('statuses/sample')
