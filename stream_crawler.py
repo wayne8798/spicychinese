@@ -28,7 +28,6 @@ def analyze_user(api, screen_name):
 
             if all(ord(ch) < 128 for ch in text):
                 onlyEngSenCount += 1
-                print text
 
             tweetsBuffer += text + '\n'
             for ch in text:
