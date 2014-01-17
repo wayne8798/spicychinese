@@ -19,9 +19,12 @@ def analyze_user(api, screen_name):
         if 'text' in item.keys():
             text = item['text']
             entities = item['entities']
-            urls = (e["url"] for e in entities["urls"])
-            users = ("@"+e["screen_name"] for e in entities["user_mentions"])
-            text = reduce(lambda t,s: t.replace(s, ""), chain(urls, users), text)
+            urls = (e['url'] for e in entities['urls'])
+            if 'media' in entities.keys():
+                urls = (e['url'] for e in chain(entities['urls'], entities['media']))
+            users = ('@'+e['screen_name'] for e in entities['user_mentions'])
+            text = reduce(lambda t,s: t.replace(s, ''), chain(urls, users), text)
+
             tweetsBuffer += text + '\n'
             for ch in text:
                 if u'\u3040' <= ch <= u'\u30ff':
@@ -35,7 +38,7 @@ def analyze_user(api, screen_name):
         if japFlag:
             break
 
-    if chCount > 50 and enCount > 500 and not japFlag:
+    if chCount > 100 and enCount > 500 and not japFlag:
         print 'store tweets from ' + screen_name
         f = open('data/' + screen_name, 'w')
         f.write(tweetsBuffer.encode('utf8'))
