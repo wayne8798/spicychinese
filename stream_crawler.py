@@ -14,7 +14,7 @@ def analyze_user(api, screen_name):
     chCount = 0
     enCount = 0
     onlyEngSenCount = 0
-    japFlag = False
+    japKorFlag = False
     tweetsBuffer = ''
     for item in r.get_iterator():
         if 'text' in item.keys():
@@ -32,18 +32,20 @@ def analyze_user(api, screen_name):
 
             tweetsBuffer += text + '\n'
             for ch in text:
-                if u'\u3040' <= ch <= u'\u30ff':
-                    japFlag = True
+                if (u'\u3040' <= ch <= u'\u30ff' or
+                    u'\u3131' <= ch <= u'\u3163' or
+                    u'\uAC00' <= ch <= u'\uD79D'):
+                    japKorFlag = True
                     break
 
                 if u'\u4e00' <= ch <= u'\u9fff':
                     chCount += 1
                 elif 'A' <= ch <= 'z':
                     enCount += 1
-        if japFlag:
+        if japKorFlag:
             break
 
-    if chCount > 100 and enCount > 500 and onlyEngSenCount > 20 and not japFlag:
+    if chCount > 100 and enCount > 500 and onlyEngSenCount > 20 and not japKorFlag:
         print 'store tweets from ' + screen_name
         f = open('data/' + screen_name, 'w')
         f.write(tweetsBuffer.encode('utf8'))
