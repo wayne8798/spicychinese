@@ -11,8 +11,9 @@ ACCESS_SECRET = "FxbhHZ5g5ddLdGFGI4TTTlwuScFoOIVUi7FZSQBxqg4DD"
 def analyze_user(api, screen_name):
     r = api.request('statuses/user_timeline',
                     {'screen_name':screen_name, 'count':200})
-    chCount = 1
-    enCount = 1
+    chCount = 0
+    enCount = 0
+    onlyEngSenCount = 0
     japFlag = False
     tweetsBuffer = ''
     for item in r.get_iterator():
@@ -24,6 +25,10 @@ def analyze_user(api, screen_name):
                 urls = (e['url'] for e in chain(entities['urls'], entities['media']))
             users = ('@'+e['screen_name'] for e in entities['user_mentions'])
             text = reduce(lambda t,s: t.replace(s, ''), chain(urls, users), text)
+
+            if all(ord(ch) < 128 for ch in text):
+                onlyEngSenCount += 1
+                print text
 
             tweetsBuffer += text + '\n'
             for ch in text:
@@ -38,7 +43,7 @@ def analyze_user(api, screen_name):
         if japFlag:
             break
 
-    if chCount > 100 and enCount > 500 and not japFlag:
+    if chCount > 100 and enCount > 500 and onlyEngSenCount > 20 and not japFlag:
         print 'store tweets from ' + screen_name
         f = open('data/' + screen_name, 'w')
         f.write(tweetsBuffer.encode('utf8'))
