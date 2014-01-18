@@ -1,5 +1,7 @@
 from TwitterAPI import TwitterAPI
 from itertools import chain
+import math
+import time
 
 # the following credentials can be found in the app page in tchpaloalto
 CONSUMER_KEY = "Oyebr7Dx5LVseGP5tsuA"
@@ -9,8 +11,10 @@ ACCESS_KEY = "319176278-N7t6T1oRJhNlx0RMePKdkyKk0UK8BEgdpIpiw31Y"
 ACCESS_SECRET = "FxbhHZ5g5ddLdGFGI4TTTlwuScFoOIVUi7FZSQBxqg4DD"
 
 def analyze_user(api, screen_name):
+    global apiCallCount
     r = api.request('statuses/user_timeline',
                     {'screen_name':screen_name, 'count':200})
+
     chCount = 0
     enCount = 0
     onlyEngSenCount = 0
@@ -51,7 +55,11 @@ def analyze_user(api, screen_name):
         f.close()
 
 def collect_stream(api):
+    apiCallCount = 0
+    hourCount = 0
+    startTime = math.floor(time.time())
     r = api.request('statuses/sample')
+
     tweetCount = 0
     for item in r.get_iterator():
         if 'text' in item.keys():
@@ -61,10 +69,19 @@ def collect_stream(api):
             if (any(u'\u4e00' <= ch <= u'\u9fff' for ch in tweet)
                 and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)):
                 analyze_user(api, screen_name)
+                apiCallCount += 1
 
             tweetCount += 1
             if tweetCount % 1000 == 0:
                 print tweetCount
+            
+            currTime = math.floor(time.time())
+            if currTime - startTime >= 3600:
+                startTime = currTime
+                hourCount += 1
+                print str(hourCount) + ' hours passed'
+                print 'In the past hour, we made ' + str(apiCallCount) + ' calls.'
+                apiCallCount = 0
 
 
 api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET,
