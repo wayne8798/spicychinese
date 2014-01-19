@@ -76,11 +76,20 @@ def collect_stream(api):
                 print tweetCount
             
             currTime = math.floor(time.time())
+
             if currTime - startTime >= 3600:
                 startTime = currTime
                 hourCount += 1
                 print str(hourCount) + ' hours passed'
                 print 'In the past hour, we made ' + str(apiCallCount) + ' calls.'
+                apiCallCount = 0
+            # here we need to take care of the api limit of 350 requests
+            elif apiCallCount >= 350:
+                sleepDuration = 3600 - (currTime - startTime)
+                print 'Reach API limit. Now sleeps for ' + str(sleepDuration) + ' secs.'
+                time.sleep(sleepDuration)
+                startTime = currTime
+                hourCount += 1
                 apiCallCount = 0
 
 
