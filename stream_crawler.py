@@ -66,8 +66,11 @@ def collect_stream(api):
             tweet = item['text']
             screen_name = item['user']['screen_name']
             # Here we need to check whether a tweet is Chinese or Japanese
+            # In addition, we need to make sure we didn't make too many
+            # API calls.
             if (any(u'\u4e00' <= ch <= u'\u9fff' for ch in tweet)
-                and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)):
+                and not any(u'\u3040' <= ch <= u'\u30ff' for ch in tweet)
+                and apiCallCount < 350):
                 analyze_user(api, screen_name)
                 apiCallCount += 1
 
@@ -82,14 +85,6 @@ def collect_stream(api):
                 hourCount += 1
                 print str(hourCount) + ' hours passed'
                 print 'In the past hour, we made ' + str(apiCallCount) + ' calls.'
-                apiCallCount = 0
-            # here we need to take care of the api limit of 350 requests
-            elif apiCallCount >= 350:
-                sleepDuration = 3600 - (currTime - startTime)
-                print 'Reach API limit. Now sleeps for ' + str(sleepDuration) + ' secs.'
-                time.sleep(sleepDuration)
-                startTime = currTime
-                hourCount += 1
                 apiCallCount = 0
 
 
