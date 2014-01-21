@@ -91,4 +91,9 @@ def collect_stream(api):
 api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET,
                  ACCESS_KEY, ACCESS_SECRET)
 
-collect_stream(api)
+while True:
+    try:
+        collect_stream(api)
+    except:
+        print 'Connection resets. Reconnect in 5 sec.'
+        time.sleep(5)
