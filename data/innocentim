@@ -1,0 +1,204 @@
+ 文章中一些链接跳转到奇怪的地方是怎么回事www
+RT : 深析 CLI vs GUI: 注意：該文假設您具備高等數學知識，能熟練操作 Linux 以能夠日常使用，暸解 TeX, i3 等工具，有一定的計算機科學知識，且擁有良好的正版消費觀。此外在下從未接觸過 Mac OS X ... http://t.c…
+ 嘿嘿，多谢！
+ 今天刚好看到这个 lol
+RT : 
+ 暂时不读了
+ 工作
+ &lt;del&gt;Enjoy&lt;/del&gt;节哀，钱肯定还会回来的。。
+哎。。好像现在看租房信息太早了点。。又没常识了。。
+ 好哎~多谢:)
+ 嗯，现在在翻craigslist。。我也就想要单人卧室，应该会是和别人合租吧。。。
+ 5月18号= =b。。反正有OPT
+ 嗯。。我来研究下
+ 就。。就是生活不能自理不会租房QAQ。。现在在各种打听= =
+ 啊。。我6月2号入职，只是想打听下有没啥靠谱的单人卧室，我行李什么的倒也不多。。
+ 你有没有开始找房子租啊= =? 我我突然发现这件事好困难。。
+不会租房QAQ
+ 啊。。我不是很清楚这些。我几年之后也得面临这个问题。。
+ 接过来住？
+ 纸上和白板上写代码。刷刷mitbbs的面经。
+ 谢谢！
+ 谢谢\o/
+ 嘿嘿
+ 其实我下意识看成了喜大普奔。。
+ lol～
+ mountain view。还在选组。
+ lol
+ 第四题我记得模拟就行。
+ 嗯，唯手熟尔。Vim这时候还是挺有用的。。
+  我做了这场
+ 不是不是，就大中华区网上笔试那两场比较水，正式赛事我也hold不住= =。。
+说来也巧，要不是做了code jam的大中华区水题大赛，估计像我学校这种在简历关就跪了。
+ // Incredible!
+ 喂喂我才不是学霸。。
+ Thx :)
+签下了google的offer，嘢～～
+RT : 每次有读者向我抱怨的时候，我就杀一个史塔克。——乔治·马丁 
+No one sleep in the class except me. There must be something wrong.
+RT : 这... 大型多人在线对战游戏 乌克兰Online 职业比魔兽还多 
+RT : Android版的炉石，暴雪你快点发啊快点发
+ “关于”很难定义哎。。
+ 
+ 你和Raymond的心态类似, 但是我们一个大佬是这么回的: , 
+RT : 有玩 RPG 才會懂的地墊XDDDD #記得先存檔XDD 
+ 如果传入--no-auto-compile, 还会有更多惊喜XD
+ 不对, 我眼睛花了, 和你一样的现象...不好意思&gt;.&lt;
+ 我用的guile 2.0.9, 好好的.
+RT : I can't decode this text, I think it's encoded in wtf8…
+其实Lisp还是蛮方便的, 就是不知道为啥大家都不用.
+ 对编辑器和开发工具的要求还不算高. 对编译器运行时的设计要求才算高呢...
+ 我我都删了...
+     eval什么的最慢了:(
+    不能运行时生成有什么关系？
+   嗯，c++这点我还是蛮喜欢的，有点像最小公理集。
+   说来lambda也是个语法糖，创造了一个匿名类，重载了operator ()，还继承了std::function
+   他说的是函数不是lambda XD
+   如果你是说函数指针，那c里就是了。。
+   c++11没有语言级正则表达式支持，还是要用标准库&lt;regex&gt;
+  可是正则表达式是一个对象，而对象本来就是一等公民。。
+  那顶多算个语法糖吧...?
+ ruby肯定可以，看到好多次掀桌函数了。。
+RT : 把函数名从get()改成get√()一下子喜感就上来了
+RT : Github上最牛逼的pull request。原作者：你这补丁我得先放放，我在乌克兰，我们这正革命呢 
+GCC邮件列表不时有人跑来卖萌。上次Linus穿越过来；这次Eric Raymond跑来说了些好玩的话，还cc了rms XD
+ force field神技
+  唉。。那就属于作死，没办法了。// gdb有时候想看个变量，值都是&lt;optimized out&gt; XD
+  当然，"call; jmp out_label; ...; out_label: pop_vars; ret"也一样优化为"pop_vars; ret; call".
+  这玩意明明静态编译期间就能搞定呀。如果函数执行函数体包括"push_vars; do_something; pop_vars; ret"的话，遇到"call; pop_vars; ret"就优化成"pop_vars; ret; call"
+  虽然我没试过，但是那玩意难道很难实现么？
+今天本来打算给别人讲讲Java的，结果力图从基础数学出发，我就先开始讲函数。。然后不留神讲了下Lambda Calculas。。然后我决定来点演示，嗯，那就装个guile吧。。咦咦好像混入了奇怪的东西？
+ So solve real problems to satisfy what hunger? ;)
+ 咦咦？ // 百合仙子是女生？
+ “把我批判了一番”笑尿XD
+"I think it is a *very* common experience that -O3 doesn't do better than -O2" // from a GCC maintainer ;)
+ 编译release版会比debug版好很多.
+知乎现在比csdn好不到哪去了，简直不能看。
+G++的实现中, new T[size]会分配大小为sizeof(T) * size + 8的内存(64bit), 首8个字节存该内存块末尾的指针.
+ 不看。。
+泽拉图既视感 RT ": 我曾见过人类无法想象的美，我曾见太空战舰在猎户星座旁熊熊燃烧，注视万丈光芒在天国之门的黑暗里闪耀，而所有过往都将消失于时间，如同泪水消失在雨中……死亡的时间，到了——终于看过 Blade Runner"
+ 啊不好意思= =...这个
+ wiki说得蛮明白的
+ 嗯? 哦...是有一点点...
+ CA房租是不是好贵啊?
+RT : What 
+ 听说有个啥keep env？我没用过。。
+看到4级的树状页表我惊呆了...
+ 我觉得悬浮式键盘手感也不错。。
+把Interrupt Vector Table和Interrupt Descriptor Yable当成同一个东西了，浪费了好多时间debug QAQ
+ Ogre才酷炫
+一觉醒过来twitter web的ui全改了...略微不适应= =
+ 我扣过电池, 然后他们发现了, 倒是没说什么, 只是说下次不许了. // 再来一次就死定了
+然后把进入bios设置的地方加上密码，然后不允许从光驱启动以便我装回windows。然后linux给我配好gcc和vim，给个网络，这才叫家教。。
+当年我爸为了不让我玩游戏把电脑设了bios密码。现在想想，只要装linux就好了。。
+ 我觉得写代码和施展魔法很像啊...
+ 你可以搜搜看...
+Yooooooooooooo 
+ night :)
+ Tianyi Shen? // 可是我也没给过照片啊...
+ 就是...怎么确定那是不是我?
+ 有没有什么辅助识别身份的信息?
+ 没有哇, 刚收到recruiter邮件说还有个review.
+G家招聘流程好繁琐啊...过了hc还有个"higher level review with some executives"
+ 你fb面了多久?
+Is CPU implementation bug free? If it's not...
+ 有何不妥?
+ 有fav
+ 想看看uname -a
+这么说我用的Arch + Gnome3 还算是比较大众的。。 RT  reddit 上一个 DE/WM 和 Distro 的统计，我 Arch 党碉堡了：  …
+RT : RT : My slide on functional programming at #ddtx14: 
+ 让用户自己编译...XD
+ 有什么问题?
+Why a book named "Thirty Years Among the Dead" appears in GCC?!
+bootstrap &amp; testing time = movie time
+When we say "C++ is efficient" do we focus on low latency or high throughput, or both?
+RT : 一张图看懂 Java 的垃圾回收机制
+  可以用循环队列实现, 不够大了再realloc. 这样插入仍然是一次memmove.
+ Iterator can implement both list comprehension and amb.
+  我我都删了/w\
+ 我觉得amb更像封装好的dfs.
+  这里应该主要指push_back. 不过vector不能push_front确实比较蛋疼. 可以可行的workaround就是用两个vector实现一个deque.
+ list comprehension in Haskell?
+  牺牲的是access的性能. 而且vector的插入虽然会触发realloc, 但是如果元素很小的话底层用memcpy还是比较快的, 更不用说触发realloc的次数是lg n的. 当然我没做过实验...
+这些都是我肆无忌惮地使用各种标准库容器然后突然有一天要extern template并且bin不能太大之后我获取的教训...
+同样的道理, 如果queue不是一边push一边pop的, 就用vector替代. stack也用vector作模板. 但是gcc include&lt;stack&gt;似乎会触发deque的编译, 所以还是直接用裸vector了.
+map, set这些结构最好用于在线修改查询. 如果业务逻辑是修改完了再查询, 可以用vector存储, 排序后二分查找; // 好像叫flat_set, flat_map.
+  恩, gcc的deque类似于vector&lt;Array&lt;T, 512&gt;*&gt;
+ 而且空间不连续没有locality缓存不友好
+ deque堆分配更多些更慢...
+终于理解为啥说"能用vector就用vector"了...
+RT : &gt; [5, 10, 1].sort();
+
+[1, 10, 5]
+
+#javascript
+ 我觉得想要生成出伟大的作品很难哎, 还是人写比较好. 这方面最近玩了DAO感觉不错. 另外, 或许你想要的是网游= =?
+ 一个简单可行的方案是5个人抢一把锁，抢到的人拿起两只筷子，用完后再释放锁。
+ 啊这这...我我都面完了...
+ Enjoy \o/
+ 我猜应该不行。可以在方括号外面用|
+RT : 网上有年轻人发帖子问我们90年代上网发的帖子是什么样的。结果不少孩子用今天的语气说说他们自以为很古老的话题，什么黑白电视机啦，呼啦圈什么的。其实，那个年代我们看到的网络是这样的： 
+ $在方括号中起作用吗？
+ 你想得太简单了。描述细节要达到代码级别才算到位。
+ 给谁加锁？
+ 那么只要大家同时饿，大家行为就都一样了。
+ 如果没有随机函数，没有编号呢？
+等等！可执行文件格式有的叫ELF。。还有的叫DWARF？！有没有OGRE啊啊？
+原来是邵氏电影的那位先生捐了这么多钱啊...
+开始练习迴梦游仙, 虽然我觉得弦乐演奏出来更好听...
+ 数据量多大啊？
+RT : T shift from Chinese user group.  
+ 当然。。老了老了。。
+为什么那个叫Yin Wang的人能中二这么久？
+RT : Something strange happened with our #Monday morning coffee. Happy start to your week from Firefox and ! http://t.co/…
+ 没事c++已经为我们备好了char32_t...
+ 如果大家没有差别，谁知道要叉死谁呢（
+ 这一集比较特殊吧.
+ 你可以等刷完专门弄点来吃。。比较干净。。
+ 你没有考虑同性恋。。
+啊原来今天是周六。。勤劳的美国人刚上班又放假了= =b
+  Lisp里car取出的pair的第一个元素, cdr取出第二个. 当用pair构建list时, cadr取出第二个的第一个, 即列表第二个元素; caddr取出列表第三个元素.
+ 没对齐最多慢一点吧, 应该不会error? 我也不是很清楚.
+ 按说应该是segfault的, 因为问题出在调用some_bitset[-1]上.
+ 不是, 其实是个段错误. 但是显示得太奇葩了...
+什么奇葩的错误都出来了..."Bus error (core dumped)"
+ 是不是模板类的模板成员函数不好特化? 通常是不是用重载代替?
+ 我觉得DAO要更好些。。
+  auto更好地体现了DRY。如果这些调用的函数的接口有类型方面的变动，这里用auto的话代码可能会不用改。
+刷GFW涨经验点好快的 RT : 在梦国这种网络封锁的地方搞网络反封锁和通信也是很刺激很好玩的，主要是“身临其境”。既然来了，就好好享受吧
+Do brk() and sbrk() exist before introducing virtual memory? They cannot help reduce external fragments, but we are still using them :(
+ 想办法从学校里坑台服务器？
+ 要性能弄台台机嘛。笔电还是轻量一点好，比如我用的t430s。。
+为啥欧美的一些设定都这么像啊。。Witcher, Grey Warden, Night Watch.
+RT : 我从独处、独自阅读和上网中恢复能量，而与人沟通会耗费我的能量，所以我需要避免社交。但我父母认为我这样子是异常的，正常人就应该避免孤独而能够自然地参与社交。所以我不喜欢我父母如此压迫我。
+ 现在想想还是jit省事。
+ rc4就是异或，允许密钥的部分位被破解。
+  ssl就是这么做的，不过是隔更久（比如一小时）才更新一次对称密钥，不然开销太大。
+ 对。不过rc4也太可怕了，至少来个非线性的吧。
+  去看一下rsa就能把这边不少概念串起来了。。
+ 运行时是一个地址，这谁都知道; 我一直致力于强调C语言指针在编译时附加了指向内存空间的类型。其加法操作正需要类型的size。
+最近在玩Dragon Age: Origin。每一个遇到的问题都是两难的选择，每次都给人一种选项不够选的感觉。Lesser of two evils principle和自己的世界观会被详尽地体现。这是异域镇魂曲之后我遇到的第一个同类能玩的游戏。
+ 我忘了具体的实现（牛迭？），但是用循环的话会不会更短？
+买了个爱丽丝疯狂回归/w\
+"RSA 算法是如何诞生的" 
+ 哪里买的？
+刺客信條黑旗$45買不買呢。。
+ // 讲为什么很多人觉得用命令行就是深井冰。到位了。
+是不是公开出来的mp3曲子一般都是闭源的? 不带官方谱的?
+在花一下午+一晚上试图通过分析波形来做wav -&gt; midi的转换器后, 我可耻地发现自己naive了...
+RT : Pythonic = = RT : 奇葩翻译「蟒样」……你们知道这是什么意思吗？
+  git does that ;)
+  Version control doesn't mean it's only for text or diff-based. For binary files, every full version can be stored.
+ They're just different designing decisions. Mine is `want more from operating systems`.
+ It's merely about `who should take over the work`. My answer is `operating system`. Database should be included in file systems too
+ Yep. Modern file systems shall support version control.
+besides create and remove operations for a file, I'd prefer "shadow copy". It copy a to b but just shadow b; old b can be recovered.
+   dd
+ 如果你用的是qq，那么确实会出现消息颠倒顺序送达的问题。。那帮码农智商捉急啊。。
+ 我一直用LaTeX排作业题的(包括文学课的MLA格式), 不然不好意思拿出手...
+ 模板参数真的可以多个类型叫token...或者token_list. 不然真的施展不开...
+ 是的，但是龙书恐怕难以覆盖这些庞大工程背后的每个细节。
+GCC的生意渐渐被Clang抢光了？
+ 丢就丢吧。矩阵不能交换，照样很有用。
+  对对，我印象中5也用过，但5.5用很久。那时候图标还没6这么亮，似乎还有金黄色。
+ // 天天有惊喜
