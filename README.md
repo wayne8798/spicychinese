@@ -2,7 +2,7 @@ spicychinese
 ============
 
 required library:
-[TwitterAPI](https://github.com/geduldig/TwitterAPI)
+[TwitterAPI](https://github.com/geduldig/TwitterAPI),
 [Stanford Word Segmenter](http://nlp.stanford.edu/software/segmenter.shtml)
 
 Python scripts that find bilingual users on Twitter and crawl their tweets.
