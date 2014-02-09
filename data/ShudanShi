@@ -1,0 +1,214 @@
+ 把p1的stdin去掉试试
+ 在shell里面能不能直接pipe？
+ 把这一行去掉：p1.stdout.close()，直接
+p1 = XXX
+p2 = XXX
+p2.communicate
+ 把那些p1开头的行全部去掉，直接p2.commnuicate
+ p1声明一下等p2communicate的时候一起出就可以了，注意stdout都等于subprocess.PIPE
+   p1 = subprocess.Popen([], stdout=subprocess.PIPE)  p2 = subprocess.Popen(], stdin=p1.stdout, stdout=subprocess.PIPE)
+ stdin=p2.stdout?
+ popen的时候利用那个stdin参数？
+ 那玩意就是奇葩，weblogic那几个树熟悉一下就完了
+ 你用jython做甚子？写wlst？
+ 微软的CEO也是包工头出身
+ naive
+ 晚安
+家里应该常备一瓶40度的烈酒，有时候夜深了来一shot好睡觉。
+ 又出新的了，737《干部塔》
+吃宵夜，看海贼 #码农死的早
+ right
+ 说了错不好意思，那个叫匈牙利命名法则
+ please say #CaseCamel #ReversePolishNotation
+今晚连续push了三个commit，#wash_wash_sleep
+ 。。。
+ hmm 那我就生多一个让他们学会share吧
+儿子长大了我也又能开始玩乐高了！
+其实也不一定啦，前端狗才是引领web潮流的先锋。
+前端狗应该是处于鄙视链的下下下游？
+           M
+RT : Your state's economy is as big as an entire country's  (h/t ) 
+不知道为什么看到橡树我突然想到了Michael Crabtree...
+橡树智商比我高！
+ 谢谢荡荡～
+ 很可爱吧
+RT :  跪求多猫大大写个算法爬一下橡树的TL然后建个模型
+橡树makes me feels like 
+     knowledge!
+     橡树你把人类基因对比的算法写一写？
+RT : 原来A/B测试的意思是测试下你喜欢ACFan还是bilibili (雾
+RT : 八卦，微软的CEO是盖茨大叔和其他几位在华盛顿湖胖旁的Woodmark Hotel的小黑屋里决定的。据说该处很少发现中国游客 。
+吃早餐开会 (@ Oracle Conference Center) 
+ 一直都有上班呀，今天早上要开会顺便过来打球而已
+醒工砖！ (@ Club Oracle) 
+RT : Introducing our new CEO, Satya Nadella:   
+ Already made the No.1 seed of the national!
+cc  菲姐看到中间那个大大的Haskell了没有 RT   … 通过维基百科信息框制作的各编程语言相互关系～好漂亮～ 
+RT : 笨喵一定总能在这种状态下得到快感的
+       能不能把笨喵B了？
+     什么是OI？
+  那个就是教你递归的
+  菲姐试试官网搞搞： 先上函数式与递归，不要让其他语言让你内功不纯，以后想练就难了。
+ 绝对不坑你，听过张无忌练太极拳要把之前的武功全部忘掉吗？一个道理
+    那可是80年代之后，还好有这两位把全球的风向拧一拧
+   英国全国二战后的左倾你怎么不看？
+   以前小时候听工党布莱尔说education is the best gift that a country could give觉得很有道理，后来长大想想就是get the fuck out of my way
+   你去看一下人家英国保守党的主页：For Hardworking People!
+  左翼政党嘛，我唯一有好感的民主党人是NBA的前总裁大卫斯特恩，此人将NBA带到了中国推销了美国，但是来到美国后发现NBA在本土日渐式微的影响力又只能呵呵了。
+ 貌似这两项都是民主党的总统在位期间搞出来的
+RT : #renio interesting! Facebook did A/B testing to determine that users blamed FB on left, iOS on right, for slowness. http://t.co/…
+ 菲阿姨你能不能帮我做个实验，不要碰其他任何编程语言，从Haskell学起，待你学成之日回来鄙视腿上百分之九十九的码农。
+RT : New AP basketball poll: 
+1) Cuse
+2) Arizona 
+3) Florida 
+4) Wichita St.
+5) SDSU
+6) Nova 
+7) Cincy
+8) Kansas 
+9) Mich. St.…
+我们学校那群小留每年要给学校赞助多少钱新校长才会去出席CSSA的春节晚会？
+It just make me disgusting that our new Dean attended the CSSA 'Sprint Festival Show'...
+  童师傅自爆了！
+Football is awesome, see you next season!
+ 哈哈哈
+  对了jersey的油是有人来加哟？记得是有那么一次
+我同事火了，下午5点零3分的时候在review代码，he is born and grow up here, he is a big San Francisco 49ers fan.
+RT : #外宾 在加油站加油想下去自己加
+ 233
+ 那个是上世纪蒙大拿在的时候
+保罗阿伦hi翻了
+微软这广告打太晚了
+ absolutely
+RT :  Illinois, home of Liberals
+单节28分！
+  Because their name is Manning...
+RT : Peyton Manning is starting to get desperate.. 
+ wiki一下
+这时上德州人说不定都能走两分 #EpicFailure
+上次水鸟在met life对Eli Manning是多少比零来着？
+RT : 野马本命年的确苦啊。。。
+RT : Surprise 
+RT : 今年的Half-Time show太次了，跟麦娘和昂姐的大场面天上地下啊！
+RT : 我大爱国者怎么会输给这种球队的。。。。
+RT : 占着名额不干事，还不如让爱国者上
+ 那个是good kick来的，special team纱布
+Denver你是来搞笑的吧？
+RT : Hey Peyton eat a Snickers during halftime, you're Eli Manning when you're hungry 
+Seinfeld!
+RT : . 十分钟rt+fav 1k多…回复都不知道…美国人有多爱国…
+上一次超级碗有人遇到这么劣势他们采取的办法是下半场开onsite kick，不过当年的受害者叫Manning...
+ 笑cry
+gg
+Go for it
+RT : The only thing more beautiful than this country are the people who live here. Discover why #AmericaIsBeautiful: http://t.co/Y…
+Eli一脸黑线
+RT : 可口可乐主旋律爆表 #SuperAdSunday
+God Bless Coca-Cola!
+这时候美联上红袜上去打可能还有希望 #我跟你说 #SuperAd
+ 蜘蛛侠！
+Holiday再次打出gg
+三番人民都看哭了
+Manning打出gg
+野马小节奏回来了
+Manning to Welker!
+ 这个时候野马要是放不住就挂了
+  看错了看错了，哥水鸟一生黑
+  不对不对，看错了我是支持broncos的
+ 三番人民也是一样的
+ 昨天玩累了
+ 太困了
+ 我睁开眼睛看到八比零就呵呵了
+ 刚睡醒，唔该
+#OMAHA
+ and when you drive 2149 miles all the way from Chicago to California, you need it
+ that happened in 2012
+ 废话，全美降雪量第一的college:
+  随便看看就行了，穿个Colts印着Brocons QB名字的球衣吧
+  橡树你删推没节操
+RT : Check it out! #Rain! #BayArea #Today 
+RT : Duke and Syracuse have only played one game as conference rivals. But it was the best game of the season so far. » http:/…
+今年开局又创造了校史是不是考虑过几天换个头？
+ 唉现在有了小孩一星期能打上一次球就很不错啦
+RT : NO GOOD! Duke's last second shot misses, Syracuse holds on to win an instant classic, 91-89! Cuse off to 21-0 start, best…
+RT : . men's basketball's 91-89 victory over Duke is the best start in program history, 21-0! Proud to be Orange! http://t.c…
+RT : never been so proud!!! - RT : 21-0. History. Love my school. #Syracuse #BeatDuke #Cuse #ACC #bleedorange
+杜克打光了最后一颗子弹，致敬！
+ 233
+能把雪城的联防打得这么七寸，看看对方教练席上坐着的那个人叫老K就知道了。
+每次杜克快要被打趴下就来一个三分回血
+“: 往咖啡里加牛奶口感真心不好，必须的half n half” #常识
+   that's fine, 但我讨厌任何人任何时候以残疾人弱势群体妇女小孩儿童的名义占领道德制高点说事
+  3GS有Siri
+  要他们用手去按太残忍了
+  残障人士苹果应该提供24小时监听功能
+好刺激呀这场，NCAA胜场第一打胜场第二。
+ 穿坏了一双就去mall里面搞一双打折的乔丹最靠谱
+RT : Apple 
+ ok
+ 木有，笨喵你要过来么？
+爸爸遇到CharChar就像条狗
+CharChar与狗
+会说广东话就是好，打电话打包早茶态度都好一点。
+RT : A Rivalry is Born 
+RT : 要是把按住home键从siri改成手电筒🔦，就方便多了
+今天打杜克，三点半之前回到家就好。
+  多师傅早
+ 那个人最后转身走掉的时候你只能呵呵了
+ 多爷注意身体
+ 不错吧，英伦风，夏洛克
+ woo，菲阿姨都坐不住了
+ 笑尿了
+RT : 24 hours until tip-off! #BeatDuke
+  广东体育应该有
+  松狮！
+ 喔喔哦，镀金时代最高！
+ 笑死爹了
+ 好看
+ 看诺兰的电影the following，就是不知道你看过没
+笨喵脸皮厚经得起黑推上没几个能做到的
+ 笨喵你的眼光。。。
+上次谁说高中在Vermont山区读的都是真·N代壕的？N &gt;= 2
+RT : Mark Cuban takes a goodbye selfie with NBA commissioner David Stern on Stern's final day in office. (via ) » http:…
+   松狮！
+   周五还quiz还有没有人性？
+这年头的逻辑就是我卖一样东西规定要年收入一美金以上那肯定是千夫所指歧视老人妇女儿童全世界的穷苦人民，但是规定年收入要低于一定程度才可购买那就没问题了，这是什么狗屁逻辑？
+ our goal is made all the people as poor as we can!
+I have lost my affordable and quality health insurance because I found a better job!
+You can no longer be denied by a pre-existing condition, but you can be denied by your boss increase you salary!
+我看电视上Cover CA的广告，要单身年收入48000一下或四口之家年收入98000一下才可以申请，我从来没见过如此傻逼的规定和如此满满的恶意。天啊我怎么会跟这样一群人生活在一起。
+ 这种？
+ 这尼玛邻居会不会报警？
+ so？
+推上好像澳党存在感不强？
+  1950良心价！
+ 给松狮拜年！小Charles谢谢松狮阿姨～～～
+17 files changed, 355 insertions(+), 188 deletions(-)
+哥专门写了俩lazy evaluation函数来庆祝懒洋洋的吃饱撑着的过年
+ 多爷别较真，过年乐一乐
+美国联邦参议院参议员，中共中央政治局委员会常务委员，程序员，他们有什么共同的特点？他们都符合Liskov替换法则！
+  中央政治局委员会常务委员！
+RT : 过年赶集  #这里是美国 
+RT : 
+ wfh呀，得到特许
+RT : 刚看到有个人在那个什么流传很广的马的图下面写了个“对象马上跑”
+
+#干得好
+ 好几天没出门了。。。
+ 居然下雨了！
+            各位新年快乐！
+去年是python年，今年直接码年了。
+  好高端！
+ 你究竟是控大叔还是正太？
+ 真的要来？
+ 听起来好像南北达科他州一样遥远
+ 好遥远
+ 恶犬君你哪里人？
+RT :  没啥好吐的 写了担任过学生会职务的工程系学生直接简历扔垃圾桶就行了
+ 我地平时食开in and out噶
+ 别想太多，不是不是
+RT : 今天做 Demo 的时候恨不得冲到 1 Infinite Loop 里去引爆炸弹了…(
+我真的很想吐槽橡树是学生会主席这个身份
+   其实他之前是学生会的。。。
+   改需求？来维护？童师傅你想多了
