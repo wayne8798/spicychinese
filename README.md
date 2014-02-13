@@ -8,5 +8,4 @@ required library:
 Python scripts that find bilingual users on Twitter and crawl their tweets.
 
 Note:
-The Stanford word segmenter library is not included in this repo. Please visit the link above, download it, and then unzip the contents into liwcchain/.
-
+The Stanford word segmenter library is not included in this repo. Please visit the link above, download it, and then unzip the contents into liwcchain/. We use version 2014-01-04 for this project.
