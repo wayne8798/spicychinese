@@ -1,0 +1,205 @@
+这本《Clojure for the Brave and True》不错，可当作茶余饭后的休闲读物 
+太久不用DB2，居然把它用户名只支持8位字符这件事给忘记了。
+RT : [INFOGRAPHIC] The browser wars are on... see who controls the most territory, and who's the fastest... 
+在RHEL/CentOS 5.x上使用JCO3访问SAP遇到卡在CpicDriver.nativeCpic_coxread方法连接不上也不报错这种情况的朋友，别死磕了，老老实实升级到RHEL/CentOS 6.x吧。
+Bluetooth Low Energy: what do we do with you? 
+AngularJS FTW! 
+Webinar: Introducing Slick 2.0! 
+Let an Awesome Structural Engineer Show You Around NYC's New Supertall  via @prismatic
+Tool Building Versus Automation  via @prismatic
+RT : It's funny. Learning Clojure makes your previous languages seem unappealing in comparison. Learning Haskell makes them seem irre…
+A quick tour of relational database access with Scala 
+CQRS/DDD by Greg Young:  via @youtube
+Cruise Ship Cut in Half, Then Stretched 99 Feet:  via @youtube
+RT : Demotivation made easy: how to keep people from learning — 
+RT : CQRS/DDD by Greg Young  via 
+RT : MongoDB moves past DB2 to become the fifth most popular database globally 
+Apache Spark – Welcome to the CDH family  via 
+Managing energy with a Reactive application 
+给儿子买了台电钢，YDP-161B，感觉手感音色都比较接近入门级的真钢。
+如果觉得  Apache HttpComponents 或者 Databinder Dispatch 都不怎么好用，可以试试 StackMob 的 Newman  #scala #httpclient
+Tuning Postgres Queries  
+真无可救药，有那么多电子书堆着没看，还在买新的。
+The kraken suite is a secure and scalable layer that extends express by providing structure and convention. 
+What Makes Node.js Faster Than Java?  via @prismatic
+ 中文的话推荐《快学Scala》；英文推荐《The Neophyte's Guide to Scala》  不错，自己决定价格。
+RT : Sigma.js v1.0 is out!
+
+Sigma is a JavaScript library dedicated to graph drawing. 
+Erlang有map了，将替代record 
+Good Tech Lead, Bad Tech Lead  via @prismatic
+Reading code by asking questions 
+如何让SBT更新和下载依赖走SOCKS代理？方法是加上 -DsocksProxyHost=... -DsocksProxyPort=... 命令行参数。 #Scala #SBT #ProTip
+Appium is an open source test automation framework for use with native and hybrid mobile apps. 
+RT : How Akka maps to EAI patterns:  #akka #eai
+RT : I’m not convinced of the value of “sprints”. If you’re always sprinting, when do you stop and think?
+RT : Saying that not everyone should learn to code is like saying that not everyone should learn to read.
+RT : In Math, things are the way they are because they fit that way. 
+In history, things are the way they are because they got th…
+RT : Paul Phillips () on Scala. This is an awesome talk. 
+Koding is giving away 100TB this week - my link gets you a 5GB VM!   #Crazy100TBWeek
+4 Great Programming Architectures You should Know 
+Funny And Useless Linux Command 
+Taking care of your Systems Engineer  via @prismatic
+Samsung to reportedly drop Windows notebooks in 2015, will only make Chromebooks  via @prismatic
+Technology Radar January 2014  via @prismatic
+感觉我离大光圈定焦控又近了一步：除了D70s上的银广，其他所有挂机头都是定焦的。
+迄今为止，还没有发现比这个更直观的 Monad 介绍 
+Trains within trains 
+Pro Git Workflow | Pypix  via 
+Mesos / Docker Integration  #DevOps
+How to Make an iBeacon Out of a Raspberry Pi 
+在XBMC上放视频，有时会遇到字幕出现方块，就像是汉字被一个个盖住，经常是整段出现然后到下一节又好了。跟进了一下原来是XBMC的播放器对"…"这个字符支持不佳，从字幕文件中去掉这些字符即可正常显示。
+Ionic: Advanced HTML5 Hybrid Mobile App Framework 
+AngularJS SEO #protip  via 
+Setting Up a MEAN Stack Single Page Application  via 
+Why Does Gmail Go Down? January 2014 Edition | Data Center Knowledge  via 
+难得请个年假，各种还不如不休假。
+How to sync Git with Compass, npm, bower, composer and whatever other tool... 
+How I Stopped Wor­ry­ing and Learned to Love the Mongo Shell 
+Modern C++ Tips and Tools 
+这个访谈不错: Jessica Kerr () on Scala, scalaz, scalaz-stream, Testing with ScalaCheck 
+CascadiaJS 2013 - Tom Dale - Stop Breaking the Web:  via @youtube
+Clojure + Mathematica = Clojuratica 
+JMS用起来是不怎么方便，但你也不能因此来一句咱们换FTP吧，换FTP就能解决系统间异步通讯丢消息和不同步的问题。这就好比我给你一部诺基亚，过了几个月你回一句说，这玩意这么难用，咱换BP机吧，换BP机我就能随时跟你联系了。
+控制欲强的人和自控力差的人，重合度好像蛮高的。
+惊觉我居然听懂粤语了，而且明显是中英混杂的。
+顺利将某工程升级到了Slick 2.0.0，收工。
+Slick 2.0 GA - Functional Relational Mapping Made Easy  via @prismatic
+Why you don't need an Enterprise Service Bus (ESB) 
+China's economy: Doing stuff, not making stuff  via @prismatic
+Node and Angular To-Do App: Application Organization and Structure  via 
+Head First Into Full Stack Javascript 
+"I, like many developers that have been building things on the web since the mid 90s, developed a hatred for Javascript very early on..."
+   弱问一句：Cell指的是啥？这个医学期刊吗  ？
+ 可能是中英混排的关系。另外图书应该可以有比论文字体更灵活的选择吧。:)
+好奇大家是如何忍受计算机纸版图书中译本中常见的 Times New Roman 英文字体和全角括弧的？
+Paxos By Example 
+不知不觉，我在leanpub上买的书也有9本了。 
+Clojure for the Brave and True, an Online Book for Beginners 
+The Only Video You Need To See To Understand Why Marissa Mayer Fired Her COO  via @sai
+Light Table is open source 
+"Imagine buying your children two Star Wars light sabers... come within a few feet ... automatically light up." 
+Sputnik - Simple and practical RSS reader 
+Run node.js and .NET code in-process with edge.js 
+Creating Desktop Applications With node-webkit 
+A New Web UI for Spark  via @prismatic
+帮同事解决Linux服务器磁盘分区跑满尝试清理后DB2服务无法正常启停的问题(SQL1652N)，查了一圈下来，发现该同事知道 ln -s 大法却错误的使用了 cp -r 和 rm -rf 而不是 mv，造成文件属性被抹除。
+ 也许相关？ P.S. 我很少用PPTP。
+RPi操控摄像头真是完全不用动脑筋。虽然各种文档都还是以raspbian为基础环境来介绍，看似小众的Arch Linux ARM版默认安装raspberrypi-firmware-tools，开箱即用： 
+Akka 2.3 中值得期待的一个模块: akka-persistence 
+Best Practices for Designing a Pragmatic RESTful API 
+RPi变身XBMC后，我毫无悬念地失去了TA。得再弄一台自己玩。
+啥？贝巴要来破厂？
+Bullet Time Style Effect with PiFace Control and Display and Raspberry Pi:  via @youtube
+RPi装上XBian变身XBMC高清机顶盒，1080P毫无压力。
+Why I no longer contribute to StackOverflow 
+This year in Scala  via @prismatic
+给新买的 Raspberry Pi 装上了 ARM 版 的 Arch Linux ，确认这个牌子 (ORICO) 的蓝牙 4.0 dongle 可以正常使用  ，回头找有 iOS 7 的童鞋试试 iBeacon 。
+Raspberry Jamboree 2013: Amy Mather - Conway's Game Of Life: 
+LAMP is no longer cool, here comes MEAN (MongoDB + Express + AngularJS + Node.js) 
+入了个 Raspberry Pi (Model B, 512MB) 玩玩。
+某人两天前就在buzz我说他play dist出来的start不好用，当时我试了本机是OK的就没太当回事，叫他换个干净的服务器，谁知今天还在buzz我说换了新环境还是报同样错。没辙干脆连上去看个究竟吧，结果啥问题没有。发挥了一下想象力终于发现，他是命令行直接敲start……
+拜仁你好，拜仁再见。
+"When you’re in a profession that causes more harm than it prevents, you can either try and improve, or you can pray that nobody notices."
+It should be that coherence &gt; decoupling &gt; reuse, whereas the culture of Spring seems to have opposite values. 
+Docker is an open-source engine that automates the deployment of any application...that will run virtually anywhere. 
+logs and logstash @ puppetconf 2012  #logstash #jruby #elasticsearch
+logging: logstash and other things - Jordan Sissel 
+All about Elasticsearch Filter BitSets 
+About PayPal's Node vs Java “fight” 
+RT : Per Mertesacker is the real captain.
+某些合作方做事真是 full of surprises.
+某Java工程，properties文件里的key命名普遍比值要长好几倍，大部分的值还都是对应key的substring……请问这些值真的会变以至于需要写到配置文件里再从Java代码里通过常量key取回来么？ #编程是解决问题又不是拼谁码的字多
+看来卡萨伊执法阿森纳欧冠的记录可以改写为：3场比赛，阿森纳共打进0球，丢8球（其中1个是点球），11张黄牌，1张红牌。 
+Reactive Programming: 炒作还是真相?  文中提到的移动互联网、大规模用户群、用户对产品的高预期、PaaS等若干趋势，都对我们开发者提出了更高的要求，让我们将目光投向"响应式编程"。
+RT : Scala's popularity for Big Data is growing.  Scalding, Summingbird, and Spark show how it should be …
+RT : Congrats to the Kafka team for their first release as an Apache toplevel project!
+
+Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know, but were afraid to ask) (Channel 9) 
+Recovering from mistakes in Git 
+今天上午继续优化SQL，一个2分钟的查询被干到4秒。 #PostgreSQL #换个帽子戴
+原来  的cypher引擎是Scala开发的啊 
+今天花了一天时间优化某组SQL查询，最终效果令人满意，项目经理和合作方均表示认可。 #PostgreSQL #换个帽子戴
+真心希望Scala不要成为学霸的天下。Scala（包括Akka、Spray、Play等）是非常注重工程实用的，社区需要有更多来自业界的声音。
+不要低估获取成本对技术选型的影响。
+昨天晚上在家coding到4:00am，基本设计确定的前提下，单机环境把所有核心逻辑实现。今天一早赶去公司开会，下午又接着去客户那边开会，晚上回到家终于可以远程跑一下昨天的代码，一次过，耶！原先的Java代码有10223行，Scala重写后560行。
+ 1986年3月第一版。
+RT : If you want to know how distributed algorithms apply to scalable systems you must see 's scalax keynote: http://t.co/ai…
+大家猜这本书是哪年的？ 
+RT : electric talk by  on Scala and Graphs with Neo4j #scalax 
+RT : The final has arrived: spray 1.0.0 / 1.1.0 / 1.2.0 is out!  #scala #akka #http
+在某些人的心目中，SAP是“神”一样的存在。
+Spray 1.0/1.1/1.2 正式发布！ 
+How Much One Ought to Know Eta Expansion 
+Node.js at PayPal | PayPal Engineering Blog 
+"Build for replacement" instead of "Build for reuse".
+"Refactoring at the *macro* level is MUCH MORE EXPENSIVE at the *micro* level."
+Event Driven Architecture #architecture #eda  via 
+"It's really become clear to me in the last couple of years that we need a new building block and that is the Domain Events." - Eric Evans
+RT : 'Fast and Furious' star Paul Walker dies in car crash at 40 
+Announcing Scala.js v0.1  via @prismatic
+芬兰 Aalto 大学开始用 Scala 授课了？  #芬兰是个好地方
+RT : Lost in translation.
+
+(via ) 
+RT : Combining data from DB2 for z/OS with a local Neo4J graph database. Crossing the streams. *blinding white light fills the …
+RT : Just found that game demo made with ImpactJS + Illuminated.js + Box2D  :)
+RT : PostgreSQL Array Hstore 数据类型不要太爽啊啊。。。#PostgreSQL
+RT : Java is certainly an odd way to do programming.
+Gravity IMAX 3D 侯场中，头一次看 3D ，不知道会是啥感觉。
+Basic Data Structures and Algorithms in the Linux Kernel 
+The Future of the Database (Infographic) 
+Neo4j 2.0: A Giant Leap For Graphkind 
+Putting Spark to Use: Fast In-Memory Computing for Your Big Data Applications 
+Webinar: Spray on Akka with Mathias Doenitz:  via @youtube
+Reactive DDD with Scala and Akka 
+千金难买peace-of-mind.
+Why vendors can't sell OpenStack to enterprises 
+随着RC4的发布，spray 1.0/1.1/1.2的正式版终于要来了。
+Idiomatic Scala: The For-Comprehension  via 
+RT : 冰与火之歌每场杀戮都做标记是这样的：RT : Whoa.  GRRM shows no mercy. Every death in the series is tabbed http://t.c…
+Pacific Northwest Scala 2013 We're Doing It All Wrong by Paul Phillips:  via @youtube
+Bret Victor - Inventing on Principle 推多少次都不够 
+"In programming the hard part isn’t solving problems, but deciding what problems to solve." — Paul Graham
+"Compatibility means deliberately repeating other people’s mistakes." — David Wheeler
+RT : 'The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise'…
+Just what is reactive programming? 
+RT : Very interesting to see ING featuring #akka, #scala and #rlang as key technologies for the bank's future. #jfall13
+这本我买了，讲得比较浅，对快速上手Scala和Clojure有帮助。": Functional Programming Patterns in Scala and Clojure "
+Scala爱好者表示喜闻乐见，但不看好其前景。": ... Ceylon has landed  "we think people are really going to love it"  // 這麼有信心？"
+RT : Keeper Wojciech Szczesny has signed a long-term contract with Arsenal. Full report here 
+Did You Know That Not A Single Titanic Engineer Survived The Shipwreck Because …. 
+The second operating system hiding in every mobile phone 
+所谓的"员工关怀"，不是冷冰冰跳出来说，你有这些和这些异常考勤数据没有"申诉"，请解释并向你的上司确认。平时加班加点的时候你在哪里？被客户指着鼻子骂的时候你在哪里？自掏腰包为公司贡献图书和培训的时候你在哪里？ #既是吐槽也是自勉
+现在（东八区）还在回邮件，我容易吗我。
+很多时候，我们用了"企业级"的软件产品，却没有"企业级"的ops与之配套，最后还得是同一组dev去兼ops。结果就是"企业级"的好处没捞着不说，反过来还被"企业级"束缚了。
+RT :  Which is why TDD isn't coding. It's more "toss code at compiler/test runner until it approves"-ing. ;-) /cc @b…
++1 ": 我年初的时候决定从开发转岗到运维，其实当时就有一些朋友问过我为什么，最近呢，微信公众平台上也有些人表示极度的好奇，因此我决定写一篇blog来说说："
+RT : The Programmer's Life: Work; Home; Play; Sleep. #tech #programming #humor 
+Don't move to Git 
+RT : 看了个介绍zsh的slide  果断换用oh my zsh，果然好用
+RT : RT  The Difference Between Reading A Book And Watching A Movie. 
+RT : 世界最老生物确认有507岁，但科学家们为确认它的年龄而弄死了它  果然是人类特色的做法：直到事情无法挽回，才幡然明白。
+今天是Manning的Scala Day，所有Manning出品的Scala图书半价，需要的同学别错过了 
+[Shared] At First, I Thought This Was A Top Secret Facility. Then They Opened The Doors And… WHOA. 
+Joel Spolsky: A Little Less Conversation 
+翻读《C++ Concurrency in Action》，深刻感觉到C++ 11相比之前的98版真是有相当大的改进，很多并发编程相关的基础设施都补充到位了。
+C++ 11 and Scala are not so vastly different as one might think.
+事实判断和价值判断要分开，否则没有讨论基础。
+Martin Odersky: The Trouble With Types 
+Akka in Production: Our Story by @evanfchan 
+Transitioning C# to Scala Using Thrift 
+Technology Change: .NET to Scala  via 
+"It is one of the core criticisms of agile that you too easily ignore architecture as you ricochet from one user driven feature to the next"
+spray: REST on Akka 
+问：还没下班？答：白天尽开会了，得做点正事。
+ 函数式确实会带来大量短命小对象的创建和销毁，但这在JVM上是很高效的。我想这个解释大家都听过。再举个例子，Java里经常有容器帮我们对类定义做分析然后动态组织一些逻辑，换做Scala这些逻辑组织可能在编译时就完成了。
+ lazy evaluation? 你要的话当然可以有。但就像你自己说的，有时候保持代码逻辑清晰比追求极致性能更重要。
+ 谁说代码组织和算法运用合理一定是imperative的呢？functional就一定比imperative慢吗？我看未必。
+ 我认同企业开发追求极致性能的地方不多，但我不认为这是使用Scala而非Java的主要因素。况且若代码组织和算法运用合理，未见得谁就一定比谁慢。
+原本没人敢(愿意)碰的JavaEE工程，用Akka、Spray重写以后，经过昨天下午的KT，一帮从未接触过Scala和Akka的小朋友，今天已经陆续在本机跑通并开始提改进意见了，生产环境的版本发布也由原先的分钟级缩短到秒级。开发工作本应如此简单直接无废话的。
+#akka #microkernel #tips 请将你的 logback.xml 丢到 akka 的 config 目录下。
+#akka #tips 不要在你的代码中到处写 ConfigFactory.load() ，对于 actor 而言，直接用 context.system.settings.config 即可。
+#译自英语推 #程序员段子 什么是看板？看板就是：墨西哥湾从密西西比河吸水，然后密西西比河向它的上游要水，上游的山脉再问天空要雨。
+ Thx, bro!
