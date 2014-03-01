@@ -1,3 +1,81 @@
+ 为什么是debian的问题？
+      分包和无法多版本共存有什么关系。。
+ 啊。。那还是把爸妈肉身接出来好了。。
+ 。。。嘶疼！
+ 爸妈用windows哎= =
+怎么远程给爸妈设置goagent呢...
+   至少没依赖PHP XD
+ 话说自带包管理的我都倾向于用他们自带的, 虽然不知何故Python是个显著的例外. // Firefox, Ruby, Gnome Shell Extension什么的...
+RT : 微信招 C/C++ 后台工程师，办公地深圳/广州，有意向的可以直接联系我。
+  其实我觉得静态类成员只是全局变量套了一个独立命名空间而已，所以初始化时很像全局变量的初始化。。毕竟当年设计的是“带类的C”。
+  我高中太naive了，只会看着“巨人与鬼”独自凌乱。。
+ 孩子要真熊起來你防都防不住。。 
+RT : Request for #GCC #GSoC project ideas. 
+   不太一样. 就g++的行为看, 析构调用发生在设置%eax(返回值)之前; 另外, 析构函数拥有独立的栈帧, 而不是一段内嵌在原来函数中的代码.
+   所以finally里的代码是在填充返回值之后但ret之前执行的= =? 果然是finally...
+不错，配了老半天还是配成狗 RT  xl2tpd 这 CLI 程序对普通用户来说的确极其难用，设计的很失败。
+RT : You-know-who #wg21 
+做研究本来是吃饱了没事干的状态下才会做的事; 讽刺的是现在却有很多人用来混饭吃.
+ 哎说的也是。。使用OOP分分钟变sb。。
+其实C++14的type deduction还是很弱的. 你能不能定义个Hindley-Milner那样圆润的啊.
+之前一直有个误区, 就是若一个函数返回一个引用其局部变量的闭包, 其局部变量便无法释放, 则"函数返回则局部变量释放"这一好看的不变量得不到保证; 后来想想根本不是这么回事, 明明是人家东西都放在堆上, 然后耍GC嘛...
+RT : 【面试的所有使用 Python 的公司…都认定我是 Python 菜鸟。然而我的水平显然高过…Guido van Rossum很多…他对程序语言的理解他的每一个可笑的错误都被我看得清清楚楚】笑抽筋了… http://t.co/2gl5pzs…
+RT : #IfIWasWhite is trending.. 
+  XD
+惊呆了... 
+RT :  has anyone EVER filled out anything but the "full name" field? I mean apart from  of course.
+RT : 太TM萌了233～RT : 今天心血来潮叫了肯德基的外卖，跟客服说，希望快点送到，不然我就饿死了，结果外卖15分钟就送到了，付好钱后悲剧发生了，单据上客户留言那栏直接打印着：快点送达，顾客即将饿死……
+@wang_xuehao yoooooo
+ 喝红牛...
+ g家上班要守时嘛?
+原来yinwang是有听众的...当然整个过程更像忽悠.
+ 我都没法想像为什么会有这种问题. 难道lex不是直接吞空格的么.
+RT : Update  via 
+RT : Debian 技术委员会在 Init System 投票结束后貌似内讧了。。。。
+ elisp是dynamic scope是吗?
+RT : Android 总是在一个程序恢复响应的时候弹个窗说它没响应了要不要结束…
+ 掀桌！
+ ruby没有python的dir()么?
+ 我是人工分词的...显然年轻的非专业用户都是敲整句.
+ // Waiting for RMS's response.
+ // “why programming is difficult”
+RT : RT :   其实我有个KDE的抱枕… 
+ py的list comprehension很好地符合了我的期望. 设计者似乎认为如果需要用到reduce(fold), 那就应该写成循环了. 而map和filter则不用.
+受函数式编程影响比较大的同学可能有个毛病, 就是太过于注重写出好看的代码了, 而不很注重工程需求. 这本来是见仁见智的事情, 但是他们也许会情不自禁地用自己的审美观来要求工程代码, 多多少少浪费了些时间和精力.
+  你看人家paacal就是有个“返回值变量”的。。而且emplace感觉就是这样做的嘛。。
+  解决性能问题就是不要用return，而是直接构造ret指向的对象。当然这就没private可谈了。。
+  所以我又来鼓吹我的返回值指针了...a = f(x); 将是f(&amp;a, x)的语法糖, f中用关键字ret取得&amp;a(就好比this取得对象地址). return expr就是*ret = expr的语法糖.
+怎么都出e18了？风格不对啊，被chrome带的？
+  那就是给了钱还挂人?
+RT : , I told a coworker you've referred to `[]() {` syntax as "hi, I'm a lambda". He then made this... https://t.co/TJR…
+ [Off Topic]咦感觉和SML很像哎
+话说好久不见壳酱的推了...
+知乎很多方面做得还不如一个bugzilla
+ 别人commit之前都不测的？
+ grep -v XD
+C++11 standard library containers' emplace function fits my flavor; but std::piecewise_construct is so ugly :)
+如果把程序员类比作侦探, 那么苏格兰场的警探就是码农了, 靠测试debug; 福尔摩斯则是资深黑客, 喜欢靠推理来debug; 华生则写得一手好文档.
+ 最初设计c语言时根本没有表达“指针”的字符，只有解引用运算符“*”。后来“int*”表示int指针这种行为某种程度上赋予了“*”别的意思，破坏了原来的优雅定义。
+ 哦，我说得不好，就是在写语句时，表达式*a[10]，根据优先级即*(a[10])的类型是int。
+ 至于变量声明为啥要长成这样, 参见我的回答: 
+ 哦. 你是说"难用对", 但是我觉得本身的定义还是很清楚的. 宏就是文本替换(现在似乎是以token为单位了); typedef后面跟的东西和变量声明语法一致, 只不过"变量名"是要定义的新类型名.
+RT : 程序员的命名趣味 
+ Off Topic...
+ 问个OT的问题...你在哪个组?
+ 哪里难理解了？
+ 哦，我忘了，Java确实做不到这点www
+ 那有啥稀奇了。。
+RT : Things to try when fixing a bug:
+
+1. Google
+2. Stack Overflow
+3. Documentation 
+
+...
+
+8277. Disturb your co-worker who has…
+ 有函数指针自然有函数成员指针。。
+ 啥？
  文章中一些链接跳转到奇怪的地方是怎么回事www
 RT : 深析 CLI vs GUI: 注意：該文假設您具備高等數學知識，能熟練操作 Linux 以能夠日常使用，暸解 TeX, i3 等工具，有一定的計算機科學知識，且擁有良好的正版消費觀。此外在下從未接觸過 Mac OS X ... http://t.c…
  嘿嘿，多谢！
@@ -126,79 +204,3 @@ map, set这些结构最好用于在线修改查询. 如果业务逻辑是修改�
   恩, gcc的deque类似于vector&lt;Array&lt;T, 512&gt;*&gt;
  而且空间不连续没有locality缓存不友好
  deque堆分配更多些更慢...
-终于理解为啥说"能用vector就用vector"了...
-RT : &gt; [5, 10, 1].sort();
-
-[1, 10, 5]
-
-#javascript
- 我觉得想要生成出伟大的作品很难哎, 还是人写比较好. 这方面最近玩了DAO感觉不错. 另外, 或许你想要的是网游= =?
- 一个简单可行的方案是5个人抢一把锁，抢到的人拿起两只筷子，用完后再释放锁。
- 啊这这...我我都面完了...
- Enjoy \o/
- 我猜应该不行。可以在方括号外面用|
-RT : 网上有年轻人发帖子问我们90年代上网发的帖子是什么样的。结果不少孩子用今天的语气说说他们自以为很古老的话题，什么黑白电视机啦，呼啦圈什么的。其实，那个年代我们看到的网络是这样的： 
- $在方括号中起作用吗？
- 你想得太简单了。描述细节要达到代码级别才算到位。
- 给谁加锁？
- 那么只要大家同时饿，大家行为就都一样了。
- 如果没有随机函数，没有编号呢？
-等等！可执行文件格式有的叫ELF。。还有的叫DWARF？！有没有OGRE啊啊？
-原来是邵氏电影的那位先生捐了这么多钱啊...
-开始练习迴梦游仙, 虽然我觉得弦乐演奏出来更好听...
- 数据量多大啊？
-RT : T shift from Chinese user group.  
- 当然。。老了老了。。
-为什么那个叫Yin Wang的人能中二这么久？
-RT : Something strange happened with our #Monday morning coffee. Happy start to your week from Firefox and ! http://t.co/…
- 没事c++已经为我们备好了char32_t...
- 如果大家没有差别，谁知道要叉死谁呢（
- 这一集比较特殊吧.
- 你可以等刷完专门弄点来吃。。比较干净。。
- 你没有考虑同性恋。。
-啊原来今天是周六。。勤劳的美国人刚上班又放假了= =b
-  Lisp里car取出的pair的第一个元素, cdr取出第二个. 当用pair构建list时, cadr取出第二个的第一个, 即列表第二个元素; caddr取出列表第三个元素.
- 没对齐最多慢一点吧, 应该不会error? 我也不是很清楚.
- 按说应该是segfault的, 因为问题出在调用some_bitset[-1]上.
- 不是, 其实是个段错误. 但是显示得太奇葩了...
-什么奇葩的错误都出来了..."Bus error (core dumped)"
- 是不是模板类的模板成员函数不好特化? 通常是不是用重载代替?
- 我觉得DAO要更好些。。
-  auto更好地体现了DRY。如果这些调用的函数的接口有类型方面的变动，这里用auto的话代码可能会不用改。
-刷GFW涨经验点好快的 RT : 在梦国这种网络封锁的地方搞网络反封锁和通信也是很刺激很好玩的，主要是“身临其境”。既然来了，就好好享受吧
-Do brk() and sbrk() exist before introducing virtual memory? They cannot help reduce external fragments, but we are still using them :(
- 想办法从学校里坑台服务器？
- 要性能弄台台机嘛。笔电还是轻量一点好，比如我用的t430s。。
-为啥欧美的一些设定都这么像啊。。Witcher, Grey Warden, Night Watch.
-RT : 我从独处、独自阅读和上网中恢复能量，而与人沟通会耗费我的能量，所以我需要避免社交。但我父母认为我这样子是异常的，正常人就应该避免孤独而能够自然地参与社交。所以我不喜欢我父母如此压迫我。
- 现在想想还是jit省事。
- rc4就是异或，允许密钥的部分位被破解。
-  ssl就是这么做的，不过是隔更久（比如一小时）才更新一次对称密钥，不然开销太大。
- 对。不过rc4也太可怕了，至少来个非线性的吧。
-  去看一下rsa就能把这边不少概念串起来了。。
- 运行时是一个地址，这谁都知道; 我一直致力于强调C语言指针在编译时附加了指向内存空间的类型。其加法操作正需要类型的size。
-最近在玩Dragon Age: Origin。每一个遇到的问题都是两难的选择，每次都给人一种选项不够选的感觉。Lesser of two evils principle和自己的世界观会被详尽地体现。这是异域镇魂曲之后我遇到的第一个同类能玩的游戏。
- 我忘了具体的实现（牛迭？），但是用循环的话会不会更短？
-买了个爱丽丝疯狂回归/w\
-"RSA 算法是如何诞生的" 
- 哪里买的？
-刺客信條黑旗$45買不買呢。。
- // 讲为什么很多人觉得用命令行就是深井冰。到位了。
-是不是公开出来的mp3曲子一般都是闭源的? 不带官方谱的?
-在花一下午+一晚上试图通过分析波形来做wav -&gt; midi的转换器后, 我可耻地发现自己naive了...
-RT : Pythonic = = RT : 奇葩翻译「蟒样」……你们知道这是什么意思吗？
-  git does that ;)
-  Version control doesn't mean it's only for text or diff-based. For binary files, every full version can be stored.
- They're just different designing decisions. Mine is `want more from operating systems`.
- It's merely about `who should take over the work`. My answer is `operating system`. Database should be included in file systems too
- Yep. Modern file systems shall support version control.
-besides create and remove operations for a file, I'd prefer "shadow copy". It copy a to b but just shadow b; old b can be recovered.
-   dd
- 如果你用的是qq，那么确实会出现消息颠倒顺序送达的问题。。那帮码农智商捉急啊。。
- 我一直用LaTeX排作业题的(包括文学课的MLA格式), 不然不好意思拿出手...
- 模板参数真的可以多个类型叫token...或者token_list. 不然真的施展不开...
- 是的，但是龙书恐怕难以覆盖这些庞大工程背后的每个细节。
-GCC的生意渐渐被Clang抢光了？
- 丢就丢吧。矩阵不能交换，照样很有用。
-  对对，我印象中5也用过，但5.5用很久。那时候图标还没6这么亮，似乎还有金黄色。
- // 天天有惊喜

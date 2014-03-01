@@ -1,0 +1,200 @@
+ 随便一台 Leica M 就够买俩了 - -
+ - -烧相机的大大别这样(
+Finally! 
+My fitbit #Fitstats for 2/20/2014: 11,069 steps and 8.4 km traveled. 
+ Thanks for the explanation 😊
+无聊了(
+ try to call updateValue:forCharacteristic:onSubscribedCentrals: with authed centrals instead of nil? (4/4)
+ only to authed centrals). Other people can get when user knocked their phone and encrypted (password?) data. Maybe (3/4)
+ send data to Mac, it will send out notifications to all centrals that subscribed that characteristic (instead sending (2/4)
+ And one last thing for tonight (hope it doesn’t bother you) A potential security problem. When Knock trying to (1/4)
+Knock 的 class dump 看起来非常接近心目中完美的验证模型...比想象中要好得多...然后看起来作者也有在不断尝试各种新的 approach :)
+ BTW a small UI related bug. happens when user unpaired with a computer and reinitiate pairing process 
+ Aha, that’s nice :) Looking forward to see it
+ I thought knock already got user’s password during the setup. Authorization plugin can handle login on loginwindow
+ 对啊, Apple 只要一张能读得卡就好了...不管是不是有效地
+ from user’s aspect, installation won’t become any complex than what it is right now… Uninstall might need a button in Knock
+ 果断点嘛…抛弃 GN 投入基佬阵营嘛( BTW 你手边没有废掉不用的卡么…那些剪了也能激活呀
+ Any plan to implement Knock as an OS X Authorization Plugin in the future?
+ 作为劳动人民的智慧呢- -自己上剪刀啊(
+ 你就没有什么随便的 SIM 卡么...
+Ebay 卖东西抽成 10% 么 Orz
+给跪了... Apple 支持 MTU 协商后的结果是延长每个包的传输时间…实际速度没变嘛…骗子 Apple (
+My fitbit #Fitstats for 2/19/2014: 11,308 steps and 8.5 km traveled. 
+这样看很有感觉嘛( 
+ Grade 呢（
+ 碉堡了（
+ that’s why we need filter ;)
+ 最后 Google 在会场摆个 No Glass 就 LOL 了(
+ 想多了(
+ +1
+Dear Apple, Now Google I/O has been announced… where is my Mac Pro?
+ 看着应该是下个月开始卖票 Jun 25~26
+不过 June 25-26 …和 WWDC 挨那么近是闹哪样啊...
+ 白肥今年 IO 去嘛?
+ does the Chinese company who signed the GBA4iOS get the access to source code? or you just send the binary to them?
+#中国企业占领世界 的节奏? #这样让我怎么敢打开…… 
+Google Fiber 一下子扩展真么多 City 么...
+My fitbit #Fitstats for 2/18/2014: 11,721 steps and 8.8 km traveled. 
+ UP2414Q 能有 183 嘛...凑合下好 264 差不了太远了(
+ 4K Monitor 勉强算的上 Retina 吧?
+ 当然没问题…只是了解下是不是真的有了嘛~
+ 有这种神器么?
+Glass 的 Frame 是针对高鼻梁的人设计的...看着怪怪的...
+ 好吧…一直没觉得那些机构在这方面在乎省钱(
+ 原来是 UIKit 的问题么...当初浪费了我 3 小时后来重写了整个 UI Layout ...
+ 我的意思是三次元里有多少人真的需要自己打印那个去装上用(
+Crucial 是良心厂家么… For Mac 的 RAM 竟然比 For Win 的还便宜!  
+ 吃(
+ 枪也不用吧... 说实话看 Promo Video 一群人在那里非常激动的 Revolutionary 真的有点…不是很能理解(?) … 三次元暂时用不到那个强度吧其实...
+ 还没…估计最近看时间去吧...
+ 相对市面上其他的来比嘛... Form 1 的 1L 是 149 , Mark One 的 1lb 是 550.. (没密度不知道具体能差多少)
+ 没 Intern 就回咯…
+Mark One 这算是把 3D Print 真正推向买得起打印机买不起耗材的时代了么(
+说真的 Multipeer Connectivity 不支持 Background 完全不明白 Apple 怎么想的(
+Dec 19 的 Order 到现在还没发完...等的好绝望(
+ 校内的 Club 啦
+#DailyBug 
+ That’s nice :) I’ll always waiting for it!
+ any chance for a Mac version in the future?
+My fitbit #Fitstats for 2/17/2014: 4,360 steps and 3.3 km traveled. 
+ I like BGM(
+PS4 时代索尼不卖限定版主机改卖限定版主机硬盘罩了么(
+BIOS 那个页面一般不会有程序猴子乱碰吧…
+ Apple 这是认真的么?!
+My fitbit #Fitstats for 2/16/2014: 5,380 steps and 4.1 km traveled. 
+ That issue only happens on some of devices running iOS 7 not all of them. I’m not sure why that happens
+My fitbit #Fitstats for 2/15/2014: 6,532 steps and 4.9 km traveled. 
+突然发现高通好能折腾… Toq 里还有一套 Lua Runtime ...
+Qualcomm 又点歪发展方向了……给的 API 只能 render text 有毛病么……我要 Native Platform SDK…
+RT : Qualcomm releases first Toq SDK 
+My fitbit #Fitstats for 2/14/2014: 12,113 steps and 9.1 km traveled. 
+Just posted a photo 
+RT : C++14 is done :) #WG21 
+ is this by designed? Two bots at same time? 
+ Welcome to Bay Area :) Hope you will love staying at here!
+我正在对着八年前的 Sample Code 找解决方案... #都是Apple的错
+  Congrats on launching new version :)
+RT : v1.1 — steal candy from babies. steal more with streaks. block people during head start.  http://t.co/7…
+ it’s not about dev firmware but actually making one or two samples. Soldering those BGA with heat gun makes life so tough 😝
+技能树越点越歪怎么办…
+My fitbit #Fitstats for 2/13/2014: 9,597 steps and 7.2 km traveled. 
+SecurityAgentPlugin 的 log 不知道被 authd 弄到哪里去了...
+接下来用一个月试试干 PAM ?
+ 贵校我不评价(
+ 会神志不清的吧- -
+ That one is amazing… However BGA means it’s not easy for maker to play around with it :/
+SESUB-PAN-T2541 太疯狂了!
+ 关键是所有的凑在一起什么的(
+下学期课表要这样排会成狗的吧…安排课程的人太黑了啊 
+ #论模特的重要性 #喜欢那个logo但是看图真的没欲望买怎么办
+ 哈哈!
+ 喵~白肥明天找好妹子了嘛?
+医学院的学生看着好辛苦(
+ ytw 不也是拖了几个月才去换的嘛...我周围另一个现在还是当初 IO 那一批的 Glass …
+ 确认这里的第二代不是指的 one time swap 那个?
+ link?
+Apple Developer Support 的系统已经是中文的了啊...
+LRDIMM #新知识
+I traveled 3,000 kilometers with my Fitbit, and just earned a badge for it!  #Fitstats 才半个长城啊(
+RT : I know more about the next iPhone than the state of the radars I file on iOS =\.
+My fitbit #Fitstats for 2/12/2014: 10,045 steps and 7.6 km traveled. 
+DPT-S1 看着好薄...
+ new Mac Pro 嘛
+My fitbit #Fitstats for 2/11/2014: 10,055 steps and 7.6 km traveled. 
+ #正能量爆棚
+nMP 终于预授权了!
+ 根本没这个选项好么
+ 让你乱插(
+最近要忙疯了
+My fitbit #Fitstats for 2/10/2014: 7,126 steps and 5.4 km traveled. 
+为什么我的 nginx + fastcgi 不会自己处理 multiple part post…
+ 图呢(
+Asus VivoTab Note 8 拿去跑 OneNote 做笔记其实很不错吧?
+My fitbit #Fitstats for 2/09/2014: 3,271 steps and 2.5 km traveled. 
+ Orz
+  最近努力学车咯~
+  他每次这么跑就让我觉得我周末好宅……
+ 为什么你一到周末就跑动物园去…
+RT : Wtf is wrong with this dude? What is he looking at? The world? 
+好啦~晚安喵~
+ 不过之后如果打算改 Layout 可能会换掉~
+ 其实要是能改应该一起改掉吧... Kobe 那个是显眼了
+ Hi 太短了会让上面太轻了... Hello 怪怪的...选来选去就 Hola 好看点(
+  说起来两位觉得底下那个花的颜色会太浅了么? 
+  为什么在调 Level 的时候你调了那么多东西...
+My fitbit #Fitstats for 2/08/2014: 4,740 steps and 3.6 km traveled. 
+不过 Adobe 家的 bug 就是多…Search 出来的东西直接点没效果(
+   刚刚录的, 图片从你那个 PDF 里截的然后用 PS 打开 screenshot png 然后操作的
+  好神奇…
+  就跟 Linkzero 说的那样做的啊... Desaturation 以后调 Level 调到差不多然后反色咯...
+  CC 弄得也还 OK 吧? 
+冬奥会开幕式的主题就是 #普京我们就要恶心你么 (
+ 祝好运(
+ MS 的世界里 List 是个 Dictionary?
+#今天才知道滥用301的后果
+哭…不小心吧好多 tab 一起关掉了...
+今天被 Math 搞死了...
+ 我认识的 EE 的似乎都那样（
+My fitbit #Fitstats for 2/07/2014: 18,546 steps and 14 km traveled. 
+ ...我还是就凑合着吧…那样好折腾...
+ 在两个机箱里面不把硬盘插到另外一个机箱里的情况下...
+ 好吧...我慢慢等了...
+ 我应该说两块硬盘之间对拷?现在能有 113MB/s 左右…
+快速传输 2TB 的数据有什么办法呢...
+ 我个人觉得一般...有点太淡了...
+ #没谈过恋爱 ？
+喵^_^  跑来试试 (@ Shalala) 
+ 没去过…下次试试~
+ 看图都有点像等下搭 Caltrain 跑过去了( #没有车的忧伤
+ 好吧...
+ 那家现在就开门了么...?
+ UP2414Q 嘛~?
+ 今天才有空跑去配镜片……
+ #无图无真相
+还是把 tz.is 拿下来了（
+  19.99/Mo 比你 CS6 套件便宜吧（
+所以说我给人的感觉应该还是友好的?
+ 说起来 Navigation Bar 上那几个暂时是摆设么...
+ 快去入 Adobe CC (
+Optimus 的手感太渣了…扔回 Ebay 上看看有人要么(
+My fitbit #Fitstats for 2/06/2014: 12,711 steps and 9.6 km traveled. 
+ 喵(
+ 浜虎?
+ 你的小金库呢(
+ 啊?…通知的渲染应该是在本地里才是啊…
+ 3~7 天还好吧…
+ 没好到哪里去...
+ 3~7 吧…看表面 Update 频率
+ 我没搞过不知道呢(
+ Pebble 的 LE 只用于 ANCS….
+ 哪个 SmartWatch?
+ Pebble 连接 Android 就压根不走 BTLE 好么-
+Gay Cook 还没学到教训么…提前一年半开始对外吹那么到时候不管发布出个什么都不可能让人有满意的感觉吧...
+连个圆都画不好 Apple 你怎么还不倒闭（ 
+明天 Google 会在俄罗斯被墙么(
+ any updates on SDK?
+My fitbit #Fitstats for 2/05/2014: 9,621 steps and 7.3 km traveled. 
+Dropbox 内部有启动一套基于 CoreBluetooth 的验证系统么…?某个 UUID 这次又碰到了……
+ 程序猴子宁愿让 Support Team 去写出这样的 Support Doc 也不愿意去修 Bug 么(
+官方 App 太渣了……重写 ing 
+为什么看这些 Hackathon 总觉得这些评出来的水平好奇怪… 
+我去 本集 POI 好高端...还有 Form 1 3D Printer
+#妈妈再也不用担心我没壁纸了 
+Dell 必须死啊 
+Dell Return Service 是只有一个人么 把我 hold 了 30 分钟了...
+Painted in #Waterlogue 
+终于把 Shift 修好了……
+Painted in #Waterlogue 这 App 碉堡了! 
+ Nest 么?
+ 很不错...但是我还是觉得 #病的不轻
+NSImage lockFocus 好作弊的感觉...
+iTunes ... 
+ 过几天看看有什么咯~
+ 我的要下午才能拿到&gt;&lt; 坏鼠来个 selfie 吧~
+iOS 7 to iOS 7 的设备间 BTLE 设备的通讯速度大概在 13KB/s 的样子,但是 iOS 7 to Mac 的速度还是 2KB/s …Apple 能不能别把 CB Team 分成两块...
+ 看着好惊悚...
+Apple Store 的电话还会记录用户每次打电话的记录么...好可怕(
+Facebook Page 这种开开不要登录直接用 Keychain 里的信息好不习惯
+#窝边草的正确使用方法
+ 正在看……
